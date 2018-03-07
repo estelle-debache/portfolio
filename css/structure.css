@@ -1,0 +1,286 @@
+h1, h2, h3, p, a, ul, li{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+html; body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+}
+
+header{
+	background: #e8e6e6;
+	padding: 0 0 0.3em 0;
+	margin: 0 0 2em 0;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+label{
+	margin-bottom: 10px 0;
+	display: block;
+}
+
+.contenu{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+
+/***************************** HEADER ******************************/
+
+.container-h{
+	display:flex;
+	justify-content: space-between;
+}
+
+.haut-droite{
+	text-align: right;
+}
+
+.haut-droite a{
+	display: block;
+}
+
+.haut-gauche h1{
+	color: #000000;
+	font-size: 1.7em;
+	margin: 10px 0 0 55px;
+	text-shadow: 1px 1px 3px;
+}
+
+.haut-gauche h2{
+	margin: 5px 0 0 40px;
+	font-size: 1.1em;
+	letter-spacing: 3px;
+}
+
+.haut-gauche h2 span{
+	color: #8daab7;
+}
+
+nav{
+	margin-top: 15px;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+
+}
+
+nav li{
+	width: 20%;
+}
+
+nav a{
+	line-height: 30px;
+	color: #000000;
+	width: 100%;
+	display: inline-block;
+}
+
+nav a:hover{
+	color: #ffffff;
+	background: #8daab7;
+	border-radius: 10px;
+	transition: padding .2s;
+}
+
+
+
+
+/*************************************** ZONE DU MILIEU HAUT ***************************************************/
+
+
+.milieu-haut{
+	display: flex;
+}
+
+.milieu-haut-gauche{
+	width: 30%;
+}
+
+.milieu-haut-gauche img{
+	width: 100%;
+	border-radius: 25%;
+	box-shadow: 5px 5px 15px #c0c0c0 ;
+}
+
+.milieu-haut-droite{
+	width: 70%;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	min-height: 20vh;
+}
+
+.gras{
+	font-weight: bold;
+}
+
+.bleu{
+	color: #8daab7;
+}
+
+/****************** ZONE DU MILIEU GAUCHE PRESENTATION ************/
+
+.presentation{
+	display: flex;
+	flex-direction: row;
+	padding-top:20px;
+}
+
+.milieu-gauche-profil img{
+	width: 50%;
+	transition: transform 2s ease-in-out;
+}
+
+.milieu-gauche-profil img:hover{
+	transform: rotate(4000deg);
+}
+
+
+.milieu-droite-profil{
+	margin-left: 5%;
+	width: 80%;
+	padding: 1em 0 0 0;
+}
+
+.milieu-gauche h2, .milieu-bas h2{
+	color: #8daab7;
+	padding: 0.5em;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+}
+
+/****************** ZONE DU MILIEU GAUCHE COMPETENCES ************/
+
+.milieu-bas-competences{
+	display:flex;
+	margin: 3em 0 0 0;
+}
+
+.milieu-bas-competences img{
+	width: 100px;
+}
+
+.milieu-bas-competences-design{
+	width:21%;
+	margin-right:5%;
+	text-align: center;
+	min-height: 310px;
+}
+.milieu-bas-competences-integration{
+	width:21%;
+	margin-right:5%;
+	text-align: center;
+	min-height: 310px;
+}
+.milieu-bas-competences-developpement{
+	width:21%;
+	margin-right:5%;
+	text-align: center;
+	min-height: 310px;
+}
+.milieu-bas-competences-referencement{
+	width:21%;
+	text-align: center;
+	min-height: 310px;
+}
+
+
+
+/****************** ZONE DU MILIEU DROITE ************/
+
+.milieu-droite .cadre{
+	border: 1px solid #c0c0c0;
+	border-radius: 10px;
+	margin: 15px 0;
+}
+
+.milieu-droite .cadre:first-child{
+	margin: 0;
+}
+
+.milieu-droite .cadre h2{
+	color: #333333;
+	font-size: 15px;
+	text-align: center;
+	padding: 5px 10px;
+	background: #e8e6e6;
+	border-bottom: 1px solid #c0c0c0;
+	border-radius: 10px 10px 0 0;
+}
+
+.milieu-droite .cadre p, .milieu-droite .cadre form{
+	padding: 10px;
+}
+
+.milieu-droite .cadre ul li{
+	margin: 10px 0 0 30px;
+	list-style: circle;
+}
+
+input[type="submit"]{
+	color: #ffffff;
+	background: #8daab7;
+	margin: 1em 0 0 0;
+	border-color: #222;
+	display: inline-block;
+	padding: .5em 1em;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: .2em;
+	text-decoration: none;
+}
+
+input[type="submit"]:hover{
+	background: #000000;
+}
+
+#expediteur{
+	width: 100%;
+}
+
+input{
+	width: 100%;
+}
+
+textarea{
+	resize: none;
+	width: 100%;
+}
+
+/****************** PLACEMENT ZONE MILIEU GAUCHE ET DROITE ************/
+
+.milieu-g-d-{
+	display: flex;
+}
+
+.milieu-droite{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin-left: 5%;
+}
+
+.milieu-gauche{
+	width: 55%;
+}
+
+
+
+

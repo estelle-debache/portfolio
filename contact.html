@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Portfolio Estelle Debache</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/contact.css">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+<body>
+<header>
+	<div class="container">				<!----------------- MENU -------------------->
+		<nav class="navbar navbar-expand-xl fixed-top navbar-light bg-light">
+		    <a class="navbar-brand" href="index.html"><h1><b>Estelle Debache.</b></h1><h2>Intégratrice web</h2></a>
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(Current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="aboutme.html">A propos</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="competences.html">Compétences</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="cv.html">CV</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</header>
+	<!--
+		<nav>
+			<ul>
+				<li><a href="index.html" title=""> </i>Portfolio</a></li>
+				<li><a href="aboutme.html" title=""> </i> A propros</a></li>
+				<li><a href="cv.html" title=""> CV</a></li>
+				<li><a href="contact.html" title=""> Contact</a></li>
+			</ul>
+		</nav> -->
+
+
+		<!----------------- HEADER -------------------->
+	<section>
+	<div class="container">
+		<div class="container">
+			<div class="title">
+				<div class="row">
+					<div class="col-12 text-center">
+						<h1>Contact.</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 text-center">
+					
+					</div>
+				</div>
+			</div>
+
+		
+
+
+			<div id="map"></div> <hr/>
+			<form action="form.php" method="post" id="contactform">
+			  <div class="form-group">
+			    <label for="exampleFormControlInput1">Nom</label>
+			    <input type="text" name="nom" class="form-control" id="exampleFormControlInput1" placeholder="Votre nom" required>
+			  </div>
+			   <div class="form-group">
+			    <label for="exampleFormControlInput1">Prénom</label>
+			    <input type="text" name="prenom" class="form-control" id="exampleFormControlInput1" placeholder="Votre prénom" required>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlInput1">Téléphone</label>
+			    <input type="tel" pattern="[0-9]{10}$" name="tel" class="form-control" id="exampleFormControlInput1" placeholder="Votre numéro de téléphone" title="10 chiffres requis compris entre 0 et 9." >
+			  </div>
+			   <div class="form-group">
+			    <label for="exampleFormControlInput1">Adresse email</label>
+			    <input type="email" name="mail" class="form-control" id="exampleFormControlInput1" placeholder="nom@exemple.com" required>
+			  </div>
+
+			  <div class="form-group">
+			    <label for="exampleFormControlTextarea1">Message</label>
+			    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" required></textarea>
+			  </div>
+
+			   
+			   <button
+				class="g-recaptcha btn btn-primary"
+				data-sitekey="6Lfw0kcUAAAAAI4apM2VPRL6S5t4eHJEi_8LXtKg"
+				data-callback="captchasubmit">
+				Envoyer
+				</button>
+			</form>
+			
+		</section>
+
+
+				<!----------------- FOOTER -------------------->
+
+		<footer>
+			<br/>
+			<div class="row">
+				<div class="col-6">
+					<p>© Estelle Debache</p>
+				</div>
+				<div class="col-6">
+					<a href="https://fr.linkedin.com/in/estelle-debache-27333569"><i class="fab fa-linkedin-in"></i></a>
+					<a href="tel:0761423343"><i class="fas fa-phone"></i></a>
+				</div>
+			</div>
+			
+	</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU4tHv8BgdMFMJlir_ciJNsDVtJNzHI9E"></script>
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(48.855586,2.348791
+), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"road","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"administrative","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"weight":1}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"weight":0.8}]},{"featureType":"landscape","stylers":[{"color":"#ffffff"}]},{"featureType":"water","stylers":[{"visibility":"off"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"elementType":"labels","stylers":[{"visibility":"off"}]},{"elementType":"labels.text","stylers":[{"visibility":"on"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#000000"}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(48.7768586,2.394276600000012),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+ 	<script>
+ 		function captchasubmit(tokken){
+ 			document.getElementById("contactform").submit();
+ 		}
+ 	</script>
+</body>
+
+</html

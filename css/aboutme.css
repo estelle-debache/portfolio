@@ -1,0 +1,123 @@
+body{
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav ul{
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+	margin: 0 0 0 auto
+
+}
+nav ul li{
+	list-style: none;
+	padding-top: 1rem;
+
+}
+
+
+nav ul li a{
+	color:#c0c0c0;
+}
+
+
+/**********HEADER **************/
+
+
+header{
+	background: #f8f9fa;
+	width: 100%;
+}
+.mr-auto{
+	margin-right: 0 !important;
+}
+
+nav h2{
+	font-size: 0.8rem;
+}
+
+nav h1{
+	font-size: 1.2rem
+
+}
+
+
+
+
+
+
+
+
+
+/***************SECTION*******************/
+
+section img{
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    margin-bottom: 1rem;
+}
+
+
+section{
+	margin-top: 100px;
+}
+
+section h1{
+	margin-bottom: 5rem;
+	margin-top: 3rem;
+}
+
+section p{
+	margin-bottom: 2rem;
+
+}
+
+.portrait h2{
+	font-size: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+
+}
+.portrait{
+	color: #c0c0c0;
+}
+
+.portrait-chinois span{
+	color: black;
+	font-weight: bold;
+}
+
+.portrait-chinois .col-4{
+	margin-bottom: 2rem;
+}
+
+
+/*****************FOOTER*******************/
+
+footer{
+	background:#c0c0c0;
+	height: 4rem;
+	text-align: center;
+	color:white;
+	margin-top: 8rem;
+}
+
+@media (min-width: 992px) {
+	 section img{
+	 	float: left;
+	 	width: 300px;
+	 	margin-right: 2rem;
+	 }
+ }
+
+ footer a{
+	color: white;
+}
+
+footer a:hover{
+	color: black;
+}
